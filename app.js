@@ -50,9 +50,6 @@ app.post('/doInsert',async (req,res)=>{
         res.redirect('/');
     }
 
-
-
-
 })
 
 app.get('/search',(req,res)=>{
